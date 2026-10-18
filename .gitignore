@@ -1,0 +1,6 @@
+.DS_Store
+.env*
+*.code-workspace
+RECAP.md
+GEMINI.md
+.agents/
