@@ -2,6 +2,9 @@
  * NYT Cooking Bookmarklet Extractor
  * Extracts recipe title and ingredients from schema.org/Recipe JSON-LD
  * and POSTs to the Google Apps Script Web App.
+ *
+ * NOTE: If installing via client/install-bookmarklet.html, you do NOT need to edit this file.
+ * If configuring manually, replace YOUR_DEPLOYMENT_ID with your deployed Web App ID.
  */
 (function () {
   // Replace with your deployed Apps Script Web App Exec URL:

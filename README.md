@@ -42,8 +42,8 @@ nyt-to-groceries/
 │   ├── Code.js                 # Apps Script backend (Gemini LLM + Google Tasks API + Webhook)
 │   └── appsscript.json         # Apps Script manifest and OAuth scopes
 ├── client/
-│   ├── bookmarklet.js          # Browser bookmarklet script for NYT Cooking
-│   └── install-bookmarklet.html# 1-click drag-and-drop bookmarklet installer page
+│   ├── bookmarklet.js          # Reference source code for the bookmarklet
+│   └── install-bookmarklet.html# Interactive drag-and-drop bookmarklet generator
 └── README.md
 ```
 
@@ -54,5 +54,6 @@ nyt-to-groceries/
 1. **Deploy Backend**: Deploy `appsscript/` as a Google Apps Script Web App (executed as you, accessible to anyone).
 2. **Set Script Properties**:
    - `GEMINI_API_KEY`: Your Gemini API key.
-3. **Install Bookmarklet**: Open `client/install-bookmarklet.html` in your browser, enter your Web App URL, and drag the button to your bookmarks bar.
+3. **Install Bookmarklet**: Open `client/install-bookmarklet.html` in your browser, paste your deployed Web App URL into the input field, and drag the generated button to your bookmarks bar (no manual code editing needed).
+   > **Note**: `client/bookmarklet.js` is the unminified source code for reference or manual bookmark configuration.
 4. **Happy Shopping**: Browse any NYT Cooking recipe and tap the bookmarklet! 🥑🎉
